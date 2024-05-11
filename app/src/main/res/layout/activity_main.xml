@@ -12,7 +12,7 @@
         android:text="Tasks"
         android:textSize="50dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/TaskList"
