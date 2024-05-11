@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LuminaryLeap</string>
+    <string name="SplashScreen">BSplashScreen Background</string>
 </resources>
