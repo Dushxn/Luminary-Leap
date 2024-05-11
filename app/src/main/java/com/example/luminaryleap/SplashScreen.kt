@@ -13,6 +13,7 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash_screen)
+        supportActionBar?.hide()
 
         val i = Intent(this@SplashScreen, MainActivity::class.java)
         Handler().postDelayed({
