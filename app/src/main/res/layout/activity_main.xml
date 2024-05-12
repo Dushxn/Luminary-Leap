@@ -22,15 +22,16 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:nestedScrollingEnabled="true"
         />
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <Button
         android:id="@+id/AddTask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="32dp"
-        android:outlineAmbientShadowColor="@color/black"
-        android:src="@drawable/add"/>
+        android:backgroundTint="@color/lightPurple"
+        />
+
 
 </RelativeLayout>
 
