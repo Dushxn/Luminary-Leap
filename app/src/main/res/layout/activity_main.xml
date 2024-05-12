@@ -29,6 +29,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="32dp"
+        android:text="Add"
+        android:textColor="@color/black"
         android:backgroundTint="@color/lightPurple"
         />
 

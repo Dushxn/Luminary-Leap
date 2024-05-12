@@ -34,7 +34,7 @@ class ToDoAdapter(
             val adapterPosition = holder.adapterPosition
             if (adapterPosition != RecyclerView.NO_POSITION) {
                 val taskId = taskList[adapterPosition].taskId
-                listener.onDeleteClick(adapterPosition, taskId)
+                listener.onDeleteClick(position, taskId)
             }
         }
 
